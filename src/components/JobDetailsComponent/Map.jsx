@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-// import map from "../../assets/map.png";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Loader from "../Loader";
 
