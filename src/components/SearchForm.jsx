@@ -10,7 +10,10 @@ const SearchForm = () => {
   const [mType, setMType] = useState('');
   const [iType, setIType] = useState('');
   const [locationType, setLocationType] = useState('');
+
+
   const [locations, setLocations] = useState([]);
+  const [industries, setIndustries] = useState([]);
   const path = useLocation().pathname;
   const handleSelection = (e) => {
     e.preventDefault();
@@ -33,6 +36,7 @@ const SearchForm = () => {
 
       );
       setLocations(data.location);
+      setIndustries(data.industries);
     }
      getLocations();
   }, [])
@@ -65,7 +69,7 @@ const SearchForm = () => {
             onChange={(e) => setIType(e.target.value)}
           >
             <option value="">Select Industry</option>
-            {industry.map((type, i) => {
+            { industries && industries.map((type, i) => {
               return (
                 <option key={i} value={type}>
                   {" "}
